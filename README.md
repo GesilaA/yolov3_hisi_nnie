@@ -1,4 +1,4 @@
-# HISILION NNIE YOLOV3 SAMPLE
+# HISILICON NNIE YOLOV3 SAMPLE
 基于海思3519的YOLOv3_NNIE例程
 海思官方文档附带了很多目标检测算法的例子，但是在阅读的时候十分痛苦（我自己），函数各种跳跃；自带的Makefile也是一层一层嵌套，实在难以理解。所以单独将YOLOv3提取出来，并用CMakeLists替代层层嵌套的Makefile，方便阅读和将YOLOv3替换为其他网络。目前将海思例程中的YOLOv3分为两部分，一部分为通用的直接调用海思SDK的common部分，和YOLOv3特定的数据结构及方法。
 萌新刚学海思，希望有海思大佬能提供一下其他网络的优化和部署。（海思好难啊）</p>
